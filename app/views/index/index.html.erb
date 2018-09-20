@@ -1,0 +1,7 @@
+Collatz Number Sequence
+
+<%= form_for @num, url: num_path, method: :post do |f| %>
+    <%= f.label :number %>
+    <%= f.number_field :number   %>
+    <%= f.submit %>
+<% end %>
